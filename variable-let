@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable let</title>
+</head>
+<body>
+    <script>
+
+        let firstName = "Siti";
+        let lastName = "Aisyah";   
+        let fullName =  firstName + " " + lastName;
+
+        document.writeln(fullName);
+        document.writeln("<br>");
+        document.writeln(fullName);
+        document.writeln("<br>");
+        document.writeln(fullName);
+        document.writeln("<br>");
+
+
+    </script>
+</body>
+</html>
