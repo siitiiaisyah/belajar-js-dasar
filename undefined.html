@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undefined</title>
+</head>
+<body>
+    <script>
+
+        // UNDEFINED PADA VARIABEL
+        let name ; 
+
+        if (name === undefined) { // pengecekan apakah variabel nama itu undefined
+            console.info("UNDEFINED");
+        } else {
+            console.info("DEFINED"); 
+        }
+
+        // UNDEFINED PADA ARRAY
+        const names = ["Nasywa", "Rara"];
+
+        if(names[2] === undefined) { //mengakses array yang indeksnya belum ada
+            console.info("ARRAY UNDEFINED");
+        } else {
+            console.info("ARRAY DEFINED");
+        }
+
+        // UNDEFINED PADA OBJEK PROPERTI
+        const orang = {
+            name: "Siti"
+        };
+        if(orang.name === undefined) {
+            console.info("OBJECT UNDEFINED");
+        } else {
+            console.info("OBJECT DEFINED");
+        }
+        
+
+    </script>
+</body>
+</html>
